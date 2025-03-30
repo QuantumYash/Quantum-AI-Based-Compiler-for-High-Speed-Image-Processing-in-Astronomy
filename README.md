@@ -111,7 +111,24 @@ python main.py --input_image="data/raw_image.fits" --output="data/enhanced_image
 - `--input_image`: Path to the raw FITS file.
 - `--output`: Path to save the processed image.
 
+📊 Current Status
 
+Phase 1 (Preparation): ✅ Complete
+
+✔ Data fetched from HLA (hst_mos_0017053_acs_wfc_f555w_sci).
+✔ Environment set up with required libraries.
+✔ Preprocessing and visualization implemented.
+
+Phase 2 (Algorithm Development): 🔄 In Progress
+
+✔ PSO implemented for noise reduction prototyping.
+❌ QIEA integration from qopt pending.
+
+🛠 Next Steps:
+
+➡ Fetch raw FITS file (e.g., _raw.fits) for true input.
+➡ Hybridize QIEA + PSO.
+➡ Build full compiler to output optimized processing code.
 
 
 
