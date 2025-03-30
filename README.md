@@ -1,8 +1,10 @@
 # Quantum AI-Based Compiler for Astronomical Image Processing
 Overview
+
 This repository contains the implementation of a Quantum AI-Based Compiler designed to optimize high-speed image processing for astronomical data. The project leverages a hybrid approach combining Quantum-Inspired Evolutionary Algorithm (QIEA) and Particle Swarm Optimization (PSO) to enhance telescope images, such as those from the Hubble Space Telescope (HST). The initial focus is on noise reduction, with plans to expand to other tasks like object detection and image enhancement.
 
 Problem Statement
+
 Modern astronomical telescopes, such as the Hubble Space Telescope and upcoming instruments like the Vera C. Rubin Observatory, generate vast amounts of image data (terabytes per night). Traditional image-processing methods struggle to keep up with this data deluge, delaying scientific discoveries due to slow processing times. Tasks like noise reduction, object detection, and feature enhancement are computationally intensive, especially when handling raw FITS files with high dynamic ranges and noise from cosmic rays or detectors. This project aims to address this bottleneck by developing a compiler that:
 
 Optimizes image-processing parameters using quantum-inspired AI.
@@ -12,6 +14,7 @@ Objective
 Build a compiler that uses QIEA and PSO to process raw astronomical images (e.g., FITS files) faster and with high accuracy, using processed science images as benchmarks. The initial goal is to reduce noise in raw Hubble images by at least 50% in under 5 seconds per image, with potential for broader applications.
 
 Data Source
+
 The project uses FITS files from the Hubble Legacy Archive (HLA), a public repository of processed and raw Hubble Space Telescope data hosted by the Space Telescope Science Institute (STScI).
 
 Website: https://hla.stsci.edu/
@@ -38,6 +41,7 @@ Implementation: Currently used standalone for prototyping.
 Hybrid Approach: QIEA will generate initial solutions, which PSO refines, optimizing parameters like filter coefficients for high-speed processing.
 
 Libraries Used
+
 The project relies on the following Python libraries:
 
 astropy: For reading, manipulating, and writing FITS files.
